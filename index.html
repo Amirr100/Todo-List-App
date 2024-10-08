@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Todo App</title>
+</head>
+
+<body>
+
+    <div id="task-container" class="container rounded-4 ">
+        <div class="input-container pt-4 ms-4 mb-3 d-flex">
+            <input class="rounded p-2 w-75 input-1 text-white " minlength="3" type="text" id="inputMassege" placeholder="Add a new task...">
+            <div onclick="addInput()" class="button ms-3 rounded pt-1"><img src="./img/Plus.svg" alt=""></div>
+        </div>
+        <div class="task-todo text-white ms-4">Tasks to do - <span id="task-count">0</span></div>
+        <ul class="list-unstyled" id="task-list">
+            <!-- Tasks will be added here dynamically -->
+        </ul>
+        <div class="done-Task pb-3">
+            <div class="done-task-count text-white ms-4">Done - <span id="done-task-count">0</span></div>
+            <ul id="done-task-list">
+                <!-- Done tasks will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+

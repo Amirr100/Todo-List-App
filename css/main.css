@@ -1,0 +1,30 @@
+body{
+    background: #110e15;
+}
+
+.button{
+    background-color:#9E78CF ;
+    width: 40px;
+    text-align: center;
+    
+}
+
+.container{
+    background: #1D1825;
+    width: 35%;
+    margin-top: 10%;
+
+}
+
+.input-container .input-1{
+    border: 1px solid #9E78CF;
+    background-color: transparent;
+    
+}
+
+.done{
+    background: #15101C;
+color:#9E78CF ;
+padding: 20px;
+margin-top: 10px;
+}
